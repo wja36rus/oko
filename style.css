@@ -1,0 +1,249 @@
+.c-b {
+  color: #193669;
+}
+.b-c {
+  background: #193669;
+}
+body {
+  font-family: Raleway, sans-serif;
+}
+header {
+  position: fixed;
+  width: 100%;
+  z-index: 999;
+  background: white;
+}
+header .wrap-header {
+  width: 95%;
+  margin: 0 auto;
+}
+main {
+  padding-top: 136px;
+}
+#home {
+  height: 86vh;
+  background-image: url(images/home.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  display: flex;
+  align-items: center;
+}
+#home .wrap-home {
+  width: 46rem;
+  margin: 0 45% 0 auto;
+  padding: 2rem;
+}
+#home .toform {
+  background: #193669;
+  display: block;
+  width: 16rem;
+  padding: 1rem;
+  color: white;
+  text-decoration: none;
+  margin-top: 2rem;
+}
+#about {
+  background: #193669;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+#about .wrap-about {
+  width: 50rem;
+  margin: 0 auto;
+}
+#line {
+  padding: 3rem 0 3rem 0;
+}
+#line .item-line {
+  margin: 0 auto;
+  width: 18rem;
+}
+#gallery {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+#gallery .item-gallery {
+  width: 13rem;
+  margin: 0 auto;
+  text-align: center;
+}
+#gallery .img-gallery {
+  width: 13rem;
+}
+#why {
+  padding: 3rem 0 3rem 0;
+}
+#why .item-why {
+  background: #e8e8e8;
+  padding: 1rem;
+  width: 48%;
+  height: 12rem;
+  margin: 0.5rem;
+  text-align: center;
+  display: grid;
+  align-items: center;
+}
+#send {
+  width: 45rem;
+  margin: 0 auto;
+  text-align: center;
+}
+#send #send-btn {
+  background: black;
+  color: white;
+  border: none;
+  padding: 1rem;
+}
+#send .form-input {
+  border: none;
+  border-bottom: 1px solid black;
+  margin-bottom: 2rem;
+  border-radius: 0;
+}
+#plan .plan {
+  background: #e8e8e8;
+  padding-top: 5rem;
+  padding-bottom: 4rem;
+  margin-bottom: 0;
+}
+#plan .plan-item {
+  width: 39%;
+  margin: 0 auto;
+  padding: 2rem;
+}
+#who {
+  background-image: url(images/who.jpg);
+  background-size: cover;
+  background-position: center;
+  padding: 10rem 0 10rem 0;
+}
+.head-action {
+  text-align: center;
+  color: #193669;
+  font-weight: bold;
+  font-size: 6rem;
+}
+#price .price-item {
+  width: 50%;
+}
+#forms {
+  background: #193669;
+}
+#forms .form-input {
+  background: none;
+  border-radius: 0;
+  border: none;
+  border-bottom: 1px solid white;
+  margin-bottom: 1rem;
+  color: white;
+}
+#forms #sends {
+  width: 45rem;
+  margin: 0 auto;
+  text-align: center;
+}
+#forms #send-btns {
+  color: white;
+  background: #193669;
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 0.5rem;
+}
+#people-say {
+  background: white;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+.item-say-people {
+  width: 45rem;
+  margin: 0 auto;
+}
+.img-psay {
+  width: 25rem;
+  text-align: left;
+  margin-left: 2rem;
+}
+.carousel-indicators [data-bs-target] {
+  border-radius: 50%;
+  width: 1rem;
+  height: 1rem;
+  border: 2px solid black;
+}
+.carousel-control-next-icon {
+  filter: invert(1);
+}
+.carousel-control-prev-icon {
+  filter: invert(1);
+}
+.footer-wrap {
+  width: 30rem;
+}
+@media screen and (max-width: 1399px) {
+  #home .wrap-home {
+    margin: 0 auto;
+    background: rgba(255, 255, 255, 0.5);
+  }
+  #line .item-line {
+    width: 50%;
+    padding-bottom: 4rem;
+  }
+}
+@media screen and (max-width: 991px) {
+  #about .wrap-about {
+    width: 100%;
+  }
+  #gallery .item-gallery {
+    width: 15rem;
+    text-align: center;
+    padding-bottom: 1rem;
+  }
+  #why .item-why {
+    width: 100%;
+  }
+  #send {
+    width: 100%;
+  }
+  #plan .plan-item {
+    width: 100%;
+    padding: 1rem;
+  }
+  #price .price-item {
+    width: 100%;
+    padding-bottom: 2rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  #home .wrap-home {
+    width: 100%;
+  }
+  #line .item-line {
+    width: 100%;
+    padding-bottom: 4rem;
+  }
+  .head-action {
+    font-size: 10vw;
+  }
+  #forms #sends {
+    width: 100%;
+  }
+  .img-psay {
+    width: 100%;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    padding-top: 3rem;
+  }
+  .item-say-people {
+    text-align: center;
+    width: 100%;
+  }
+  .item-say-peoples {
+    margin: 0 auto;
+    padding-bottom: 2rem;
+  }
+  .footer-wrap {
+    width: 13rem;
+  }
+}
+/*# sourceMappingURL=style.css.map */
